@@ -25,11 +25,12 @@ from __future__ import annotations
 
 # Поддерживаемые языки: код → человекочитаемое имя (для меню выбора).
 LANGUAGES: dict[str, str] = {
+    "ar": "العربية",
     "ru": "Русский",
     "en": "English",
 }
 
-_DEFAULT_LANG = "ru"
+_DEFAULT_LANG = "ar"
 _current_lang = _DEFAULT_LANG
 
 # RU → EN. Ключ — исходная русская строка (ровно как в коде).
